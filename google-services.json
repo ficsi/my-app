@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1065310839505",
+    "project_id": "my-app-30e5b",
+    "storage_bucket": "my-app-30e5b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1065310839505:android:93b4bf6f8fff0911031bf0",
+        "android_client_info": {
+          "package_name": "com.dimata88.myApp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWJFjq9YsBvLT6juDn2B5noKI1vISdfBI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
