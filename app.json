@@ -15,16 +15,13 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true,
-      "googleServicesFile": "./GoogleService-Info.plist"
-
+      "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "googleServicesFile": "./google-services.json",
       "package": "com.dimata88.myapp"
     },
     "web": {
@@ -35,8 +32,11 @@
         "projectId": "6be0b174-e345-4a3b-9115-dd83a6c0f450"
       }
     },
-    "plugins": [
-      "@react-native-firebase/app"
-    ]
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/6be0b174-e345-4a3b-9115-dd83a6c0f450"
+    }
   }
 }
