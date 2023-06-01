@@ -37,6 +37,15 @@
     },
     "updates": {
       "url": "https://u.expo.dev/6be0b174-e345-4a3b-9115-dd83a6c0f450"
-    }
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow $(PRODUCT_NAME) to use your location.",
+          "isAndroidBackgroundLocationEnabled": true
+        }
+      ]
+    ]
   }
 }
